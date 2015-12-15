@@ -5,7 +5,7 @@ namespace Nop.Core
     /// <summary>
     /// Base class for entities
     /// </summary>
-    public abstract partial class BaseEnti
+    public abstract partial class BaseEntity
     {
         /// <summary>
         /// Gets or sets the entity identifier
