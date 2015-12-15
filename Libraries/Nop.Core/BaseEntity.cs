@@ -8,7 +8,7 @@ namespace Nop.Core
     public abstract partial class BaseEntity
     {
         /// <summary>
-        /// Gets or sets the entity identifier
+        /// Gets or sets the entity identifier Yes
         /// </summary>
         public int Id { get; set; }
 
