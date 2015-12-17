@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace Nop.Tests
 {
     /// <summary>
-    /// Contains exception assertions used for unit testing.
+    /// Contains exception assertions used for unit testing. 123
     /// </summary>
     public class ExceptionAssert
     {
