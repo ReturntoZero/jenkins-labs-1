@@ -1,10 +1,18 @@
-
+using System.Web.Mvc;		
+using System.Web.Routing;		
+using Nop.Core.Configuration;		
+using Nop.Core.Infrastructure;		
+using Nop.Web.Framework.Mvc.Routes;
 
 namespace Nop.Web.Infrastructure
 {
     //Routes used for backward compatibility with 1.x versions of nopCommerce
     public partial class BackwardCompatibility1XRouteProvider : IRouteProvider
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="routes"></param>
         public void RegisterRoutes(RouteCollection routes)
         {
             var config = EngineContext.Current.Resolve<NopConfig>();
