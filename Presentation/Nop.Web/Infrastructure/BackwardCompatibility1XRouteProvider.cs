@@ -10,7 +10,7 @@ namespace Nop.Web.Infrastructure
     public partial class BackwardCompatibility1XRouteProvider : IRouteProvider
     {
         /// <summary>
-        /// 
+        /// 123
         /// </summary>
         /// <param name="routes"></param>
         public void RegisterRoutes(RouteCollection routes)
